@@ -9,6 +9,69 @@
 				"inputs": [],
 				"stateMutability": "nonpayable",
 				"type": "constructor"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address payable",
+						"name": "walletAddress",
+						"type": "address"
+					},
+					{
+						"internalType": "string",
+						"name": "name",
+						"type": "string"
+					}
+				],
+				"name": "addWaitress",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "addtips",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "viewWaitress",
+				"outputs": [
+					{
+						"components": [
+							{
+								"internalType": "address payable",
+								"name": "walletAddress",
+								"type": "address"
+							},
+							{
+								"internalType": "string",
+								"name": "name",
+								"type": "string"
+							}
+						],
+						"internalType": "struct tips.Waitress[]",
+						"name": "",
+						"type": "tuple[]"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "viewtips",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
 			}
 		],
 		"devdoc": {
@@ -39,11 +102,11 @@
 	},
 	"sources": {
 		"tips.sol": {
-			"keccak256": "0x4a686ec6eea089258873a7495d1e054420a14683a2e70ba496a5548cab395404",
+			"keccak256": "0xf799c1b2e59ff9c3ebaf3df30d7ec92f013bdae701a6fefe2d12a1d1445aaf82",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://d93fc76061502510b5b378d638f0e43aa89ae4395e753ba70c411453d372d53b",
-				"dweb:/ipfs/QmV4XVsBLPNTR3BtLM6yh57Ywe93VCw4HxHDxhKDA1VE7z"
+				"bzz-raw://803415427533901977d4ea3508d42cb7e7e8fe97219fe8d454a63353050f5ea5",
+				"dweb:/ipfs/QmT1Xr52xqL9WTW6nkMji3VyRGjWFHKDPzpDePfNjxstkh"
 			]
 		}
 	},
